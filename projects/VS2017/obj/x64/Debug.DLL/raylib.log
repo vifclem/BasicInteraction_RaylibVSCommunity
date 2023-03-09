@@ -1,0 +1,2 @@
+﻿C:\VisualStudio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contains files shared from another project (Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  raylib.vcxproj -> C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\raylib.dll
