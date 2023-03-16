@@ -1,13 +1,4 @@
 ﻿C:\VisualStudio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contains files shared from another project (raylib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
 C:\VisualStudio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contains files shared from another project (Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.cpp
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.h(17,36): error C2061: syntax error: identifier 'speed'
-  Ball.cpp
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.h(17,36): error C2061: syntax error: identifier 'speed'
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.cpp(7,7): error C2511: 'Ball::Ball(int,int,int,int)': overloaded member function not found in 'Ball'
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.h(6): message : see declaration of 'Ball'
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.cpp(29,14): error C2039: 'Update': is not a member of 'Ball'
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.h(6): message : see declaration of 'Ball'
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.cpp(34,12): error C2039: 'Draw': is not a member of 'Ball'
-C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.h(6): message : see declaration of 'Ball'
-  Generating Code...
+  core_basic_window_cpp.vcxproj -> C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe
