@@ -1,4 +1,8 @@
 ﻿C:\VisualStudio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contains files shared from another project (raylib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
 C:\VisualStudio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contains files shared from another project (Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.cpp
+  Ball.cpp
+C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\examples\Ball.cpp(53,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Paddle.cpp
+  Generating Code...
   core_basic_window_cpp.vcxproj -> C:\Users\clement.expert\Desktop\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe
