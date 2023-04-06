@@ -1,3 +1,7 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: Le répertoire intermédiaire (C:\Users\cleme\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contient des fichiers partagés provenant d'un autre projet (raylib.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
-  Main.cpp
+  TextPoint.cpp
+  LINK : C:\Users\cleme\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\\bin\x64\Debug.DLL\Game.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+Main.obj : warning LNK4099: PDB 'vc143.pdb' n'a pu être trouvé avec 'Main.obj' ou sur 'C:\Users\cleme\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\vc143.pdb' ; l'objet sera lié sans informations de débogage
+Ball.obj : warning LNK4099: PDB 'vc143.pdb' n'a pu être trouvé avec 'Ball.obj' ou sur 'C:\Users\cleme\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\vc143.pdb' ; l'objet sera lié sans informations de débogage
+Paddle.obj : warning LNK4099: PDB 'vc143.pdb' n'a pu être trouvé avec 'Paddle.obj' ou sur 'C:\Users\cleme\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\vc143.pdb' ; l'objet sera lié sans informations de débogage
   core_basic_window_cpp.vcxproj -> C:\Users\cleme\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe
