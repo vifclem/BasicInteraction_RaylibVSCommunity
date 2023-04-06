@@ -326,11 +326,13 @@
     <ClCompile Include="Ball.cpp" />
     <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="TextPoint.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ball.h" />
     <ClInclude Include="Paddle.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="TextPoint.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

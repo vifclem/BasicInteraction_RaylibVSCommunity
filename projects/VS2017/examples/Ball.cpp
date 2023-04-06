@@ -38,14 +38,14 @@ RectangleI Ball::GetRect() {
 void Ball::Update() {
     x += speedx;
     y += speedy;
-    //if (x > GetScreenWidth() - size) {
-        //speedx = -speedx;
-        //HorizontalBounce(GetScreenWidth() - size);
-    //}
-    //if (x < 0) {
-        //speedx = -speedx;
-        //HorizontalBounce(0);
-    //}
+   /* if (x > GetScreenWidth() - size) {
+        speedx = -speedx;
+        HorizontalBounce(GetScreenWidth() - size);
+    }
+    if (x < 0) {
+        speedx = -speedx;
+        HorizontalBounce(0);
+    }*/
 
 
 
@@ -83,7 +83,7 @@ void Ball::VerticalBounce(int newY) {
 
 void Ball::Draw() {
 
-    DrawRectangle(x, y, size, size, BLUE);
+    DrawRectangle(x, y, size, size, DARKGREEN);
 
 
 }
