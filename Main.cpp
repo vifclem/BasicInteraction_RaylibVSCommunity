@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
    
     InitWindow(screenWidth, screenHeight, "Pong");
     SetTargetFPS(60);
-    paddleR = Paddle(screenWidth - 30, 200, 32, 128, 2, false);
+    paddleR = Paddle(screenWidth - 30, 200, 32, 128, 5, false);
 
     // Main game loop
     while (!WindowShouldClose())
