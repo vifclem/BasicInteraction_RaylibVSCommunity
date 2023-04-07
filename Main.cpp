@@ -22,7 +22,7 @@ TextPoint playerPointText = TextPoint(100, 100, to_string(PlayerPoints), 30, LIG
 TextPoint AIpointText = TextPoint(screenWidth - 100, 100, to_string(AIpoints), 30, LIGHTGRAY);
 int result = 0;
 TextPoint outcomeText = TextPoint(screenWidth / 2 - 50, screenHeight / 3, "", 40, LIGHTGRAY);
-
+void Restarted();
 
 
 int main(int argc, char* argv[])
@@ -30,14 +30,17 @@ int main(int argc, char* argv[])
    
     InitWindow(screenWidth, screenHeight, "Pong");
     SetTargetFPS(60);
-    paddleR = Paddle(screenWidth - 30, 200, 32, 128, 5, false);
+    paddleR = Paddle(screenWidth - 30, 200, 32, 128, 2, false);
 
     // Main game loop
     while (!WindowShouldClose())
     {
+        if (IsKeyDown(KEY_R)) {
+            Restarted();
+        }
+
         Update();
         Draw();
-
     }
 
     CloseWindow();
@@ -73,6 +76,7 @@ void Update()
             ++AIpoints;
             cout << AIpoints << endl;
             ball.SetX(screenWidth / 2);
+            ball.HorizontalBounce(screenWidth / 2);
             AIpointText.SetTextPoint(to_string(AIpoints));
             //defeat
             if (AIpoints >= 7) {
@@ -86,6 +90,7 @@ void Update()
             ++PlayerPoints;
             cout << PlayerPoints << endl;
             ball.SetX(screenWidth / 2);
+            ball.HorizontalBounce(screenWidth / 2);
             playerPointText.SetTextPoint(to_string(PlayerPoints));
             //victory
             if (PlayerPoints >= 7) {
@@ -114,5 +119,19 @@ void Draw()
 
     EndDrawing();
 
+}
+
+void Restarted() {
+    PlayerPoints = 0;
+    AIpoints = 0;
+    
+    result = 0;
+    
+    outcomeText.SetTextPoint("");
+    playerPointText.SetTextPoint("0");
+    AIpointText.SetTextPoint("0");
+    
+    ball.SetX(screenWidth / 2);
+    
 }
     
