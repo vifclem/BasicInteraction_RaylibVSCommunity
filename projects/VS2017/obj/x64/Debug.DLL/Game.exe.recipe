@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\clement.expert\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\raylib.dll</FullPath>
+      <FullPath>C:\Users\cleme\OneDrive\Documents\Work\Github\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\raylib.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\clement.expert\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe</FullPath>
+      <FullPath>C:\Users\cleme\OneDrive\Documents\Work\Github\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

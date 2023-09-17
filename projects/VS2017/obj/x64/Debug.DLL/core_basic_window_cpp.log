@@ -1,3 +1,3 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (C:\Users\clement.expert\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contains files shared from another project (raylib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: Le répertoire intermédiaire (C:\Users\cleme\OneDrive\Documents\Work\Github\BasicInteraction_RaylibVSCommunity\projects\VS2017\\obj\x64\Debug.DLL\) contient des fichiers partagés provenant d'un autre projet (raylib.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
   Main.cpp
-  core_basic_window_cpp.vcxproj -> C:\Users\clement.expert\Documents\GitHub\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe
+  core_basic_window_cpp.vcxproj -> C:\Users\cleme\OneDrive\Documents\Work\Github\BasicInteraction_RaylibVSCommunity\projects\VS2017\bin\x64\Debug.DLL\Game.exe

@@ -50,7 +50,7 @@ void Update()
     }
     bool collidingR = Collisions::AABBCollision(ballRect, paddleRRect);
     if (collidingR) {
-        ball.HorizontalBounce(paddleRRect.x+ paddleRRect.width);
+        ball.HorizontalBounce(paddleRRect.x - paddleRRect.width);
     }
 
     paddleR.UpdateAI(ballRect.y);
@@ -74,7 +74,7 @@ void Draw()
     paddleL.Draw();
     paddleR.Draw();
     ball.Draw();
-
+    
     EndDrawing();
 
 }
